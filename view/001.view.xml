@@ -1,0 +1,22 @@
+<mvc:View
+	controllerName=""
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	displayBlock="true"
+	height="100%"
+	busyIndicatorDelay="0"
+>
+<Page showHeader="false">
+    <Title
+        level="Auto"
+        text="This is page 2"
+        textAlign="Initial"
+        titleStyle="Auto"
+        width=""
+        wrapping="false"
+        wrappingType="Normal"
+    >
+        
+    </Title>
+</Page>
+</mvc:View>

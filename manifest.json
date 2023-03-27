@@ -1,0 +1,264 @@
+{
+    "_version": "1.50.0",
+    "sap.app": {
+        "id": "zebnews",
+        "applicationVersion": "1.0.0",
+        "description": "Zeb News",
+        "title": "Zeb News",
+        "type": "application"
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "icons": {
+            "icon": "sap-icon://home"
+        },
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        }
+    },
+    "sap.ui5": {
+        "dependencies": {
+            "minUI5Version": "1.111.0",
+            "libs": {
+                "sap.m": {
+                    "minVersion": "1.34.0"
+                }
+            }
+        },
+        "rootView": {
+            "id": "idAppView",
+            "type": "XML",
+            "viewName": "zebnews.view.App"
+        },
+        "routing": {
+            "config": {
+                "viewPath": "zebnews.view",
+                "viewType": "XML",
+                "controlId": "appHere"
+            },
+            "routes": [
+                {
+                    "name": "firstView",
+                    "target": "v1",
+                    "pattern": ""
+                },
+                {
+                    "name": "001",
+                    "target": "001",
+                    "pattern": "Hazrat_Aadam_Alaihissalam"
+                },
+                {
+                    "name": "002",
+                    "target": "002",
+                    "pattern": "Hazrat_Ayyub_Alaihissalam"
+                },
+                {
+                    "name": "003",
+                    "target": "003",
+                    "pattern": "Hazrat_Hood_Alaihissalam"
+                },
+                {
+                    "name": "004",
+                    "target": "004",
+                    "pattern": "Hazrat_Ibrahim_Alaihissalam"
+                },
+                {
+                    "name": "005",
+                    "target": "005",
+                    "pattern": "Hazrat_Ilyas_Alaihissalam"
+                },
+                {
+                    "name": "006",
+                    "target": "006",
+                    "pattern": "Hazrat_Ismail-Ishaaq_Alaihissalam"
+                },
+                {
+                    "name": "007",
+                    "target": "007",
+                    "pattern": "Hazrat_Khizr_Alaihissalam"
+                },
+                {
+                    "name": "008",
+                    "target": "008",
+                    "pattern": "Hazrat_Loot_Alaihissalam"
+                },
+                {
+                    "name": "009",
+                    "target": "009",
+                    "pattern": "Hazrat_Nooh_Alaihissalam"
+                },
+                {
+                    "name": "010",
+                    "target": "010",
+                    "pattern": "Hazrat_Saleh_Alaihissalam"
+                },
+                {
+                    "name": "011",
+                    "target": "011",
+                    "pattern": "Hazrat_Sheesh-Idris_Alaihissalam"
+                },
+                {
+                    "name": "012",
+                    "target": "012",
+                    "pattern": "Hazrat_Yaqoob_Alaihissalam"
+                },
+                {
+                    "name": "013",
+                    "target": "013",
+                    "pattern": "Hazrat_Yunus_Alaihissalam"
+                },
+                {
+                    "name": "014",
+                    "target": "014",
+                    "pattern": "Hazrat_Yusuf_Alaihissalam"
+                },
+                {
+                    "name": "015",
+                    "target": "015",
+                    "pattern": "Hazrat_Zulkifl-Yasa_Alaihissalam"
+                },
+                {
+                    "name": "016",
+                    "target": "016",
+                    "pattern": "Hazrat_Moosa_Alaihissalam"
+                }
+            ],
+            "targets": {
+                "v1": {
+                    "viewName": "MyXML",
+                    "controlAggregation": "pages",
+                    "viewLevel": 0,
+                    "clearControlAggregation": true,
+                    "transition":"show"
+                    },
+                    "001": {
+                        "viewName": "001",
+                        "controlAggregation": "pages",
+                        "viewLevel": 1,
+                        "clearControlAggregation": true,
+                        "transition":"show"
+                    },
+                    "002": {
+                        "viewName": "002",
+                        "controlAggregation": "pages",
+                        "viewLevel": 2,
+                        "clearControlAggregation": true,
+                        "transition":"show"
+                    },
+                    "003": {
+                        "viewName": "003",
+                        "controlAggregation": "pages",
+                        "viewLevel": 3,
+                        "clearControlAggregation": true,
+                        "transition":"show"
+                    },
+                    "004": {
+                        "viewName": "004",
+                        "controlAggregation": "pages",
+                        "viewLevel": 4,
+                        "clearControlAggregation": true,
+                        "transition":"show"
+                    },
+                    "005": {
+                        "viewName": "005",
+                        "controlAggregation": "pages",
+                        "viewLevel": 5,
+                        "clearControlAggregation": true,
+                        "transition":"show"
+                    },
+                    "006": {
+                        "viewName": "006",
+                        "controlAggregation": "pages",
+                        "viewLevel": 6,
+                        "clearControlAggregation": true,
+                        "transition":"show"
+                    },
+                    "007": {
+                        "viewName": "007",
+                        "controlAggregation": "pages",
+                        "viewLevel": 7,
+                        "clearControlAggregation": true,
+                        "transition":"show"
+                    },
+                    "008": {
+                        "viewName": "008",
+                        "controlAggregation": "pages",
+                        "viewLevel": 8,
+                        "clearControlAggregation": true,
+                        "transition":"show"
+                    },
+                    "009": {
+                        "viewName": "009",
+                        "controlAggregation": "pages",
+                        "viewLevel": 9,
+                        "clearControlAggregation": true,
+                        "transition":"show"
+                    },
+                    "010": {
+                        "viewName": "010",
+                        "controlAggregation": "pages",
+                        "viewLevel":10,
+                        "clearControlAggregation": true,
+                        "transition":"show"
+                    },
+                    "011": {
+                        "viewName": "011",
+                        "controlAggregation": "pages",
+                        "viewLevel":11,
+                        "clearControlAggregation": true,
+                        "transition":"show"
+                    },
+                    "012": {
+                        "viewName": "012",
+                        "controlAggregation": "pages",
+                        "viewLevel":12,
+                        "clearControlAggregation": true,
+                        "transition":"show"
+                    },
+                    "013": {
+                        "viewName": "013",
+                        "controlAggregation": "pages",
+                        "viewLevel":13,
+                        "clearControlAggregation": true,
+                        "transition":"show"
+                    },
+                    "014": {
+                        "viewName": "014",
+                        "controlAggregation": "pages",
+                        "viewLevel":14,
+                        "clearControlAggregation": true,
+                        "transition":"show"
+                    },
+                    "015": {
+                        "viewName": "015",
+                        "controlAggregation": "pages",
+                        "viewLevel":15,
+                        "clearControlAggregation": true,
+                        "transition":"show"
+                    },
+                    "016": {
+                        "viewName": "016",
+                        "controlAggregation": "pages",
+                        "viewLevel":16,
+                        "clearControlAggregation": true,
+                        "transition":"show"
+                    }
+            }
+        },
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "library": {
+            "css": "css/style.css"
+        },
+        "models": {
+            "M1": {
+                "type": "sap.ui.model.json.JSONModel",
+                "uri": "model/data/models.json"
+            }
+        }
+    }
+}

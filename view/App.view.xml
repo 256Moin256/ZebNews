@@ -1,0 +1,4 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+controllerName="zebnews.controller.App">
+<App id="appHere"></App>
+</mvc:View>
