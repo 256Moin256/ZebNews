@@ -15,7 +15,7 @@
         "deviceTypes": {
             "desktop": true,
             "tablet": true,
-            "phone": true
+            "phone": false
         }
     },
     "sap.ui5": {
