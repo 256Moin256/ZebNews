@@ -1,22 +1,37 @@
 <mvc:View
-	controllerName=""
+	controllerName="zebnews.controller.Main"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns="sap.m"
+    xmlns:tnt="sap.tnt"
 	displayBlock="true"
 	height="100%"
 	busyIndicatorDelay="0"
 >
 <Page showHeader="false">
-    <Title
-        level="Auto"
-        text="This is page 2"
-        textAlign="Initial"
-        titleStyle="Auto"
-        width=""
-        wrapping="false"
-        wrappingType="Normal"
-    >
-        
-    </Title>
+    <content>
+        <FlexBox justifyContent="Center">
+            <Title text="Hazrat Aadam Alaihissalam" titleStyle="H3" class="sapUiSmallMarginTop"></Title>
+        </FlexBox>
+        <FlexBox justifyContent="Center">
+            <Title text="Zeb News | Naushad Ahmed Razvi" titleStyle="H5" class="sapUiSmallMarginTop"></Title>
+        </FlexBox>
+
+        <FlexBox id="idFlex" justifyContent="Center" class="sapUiMediumMarginTop">
+            <Title text="Part 01">
+                
+            </Title>
+    </FlexBox>
+
+    <FlexBox justifyContent="Center" class="sapUiMediumMarginTop" >
+        <ExpandableText 
+        maxCharacters="200"
+        overflowMode="Popover"
+        renderWhitespace="true"
+        textAlign="Center"
+        textDirection="LTR"
+        text="{M1>/Ambiya_e_Kiram/0/Hazrat_Aadam_Alaihissalam/0/text}"></ExpandableText>
+    </FlexBox>
+
+    </content>
 </Page>
 </mvc:View>

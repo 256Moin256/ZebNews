@@ -3,7 +3,7 @@
     controllerName="zebnews.controller.Main"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-<Page id="idPage" showHeader="false" title="Home | Zeb News" backgroundDesign="Solid">
+<Page id="idPage" showHeader="false" backgroundDesign="Transparent">
 
     <content>
         <FlexBox justifyContent="Center">
@@ -42,22 +42,6 @@
         </tnt:items>
     </tnt:NavigationList>
 </FlexBox>
-    <!-- 
-        <items>
-            <Title
-                level="Auto"
-                text="{M1>/Ambiya e kiram}"
-                textAlign="Initial"
-                titleStyle="Auto"
-                width=""
-                wrapping="true"
-                wrappingType="Hyphenated"
-            >
-              
-            </Title>
-            <Text text="Test123"></Text>
-        </items>
-    </FlexBox> -->
 </content>
 </Page>
 </mvc:View>

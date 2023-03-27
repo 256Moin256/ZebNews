@@ -63,7 +63,6 @@ sap.ui.define(
            } else {
             oEx.setExpanded(true);
            }
-            
         }
     });
 });
