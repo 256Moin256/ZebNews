@@ -1,7 +1,5 @@
 <core:FragmentDefinition
     xmlns:core="sap.ui.core"
     xmlns="sap.m">
-    <FlexBox justifyContent="Center">
-        <Title text="Zeb News | Naushad Ahmed Razvi" titleStyle="H5" class="sapUiSmallMarginTop"></Title>
-    </FlexBox>
+
 </core:FragmentDefinition>

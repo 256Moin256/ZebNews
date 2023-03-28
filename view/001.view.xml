@@ -1,37 +1,82 @@
 <mvc:View
-	controllerName="zebnews.controller.Main"
-	xmlns:mvc="sap.ui.core.mvc"
-	xmlns="sap.m"
+    controllerName="zebnews.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
     xmlns:tnt="sap.tnt"
-	displayBlock="true"
-	height="100%"
-	busyIndicatorDelay="0"
+    displayBlock="true"
+    height="100%"
+    busyIndicatorDelay="0"
 >
-<Page showHeader="false">
-    <content>
-        <FlexBox justifyContent="Center">
-            <Title text="Hazrat Aadam Alaihissalam" titleStyle="H3" class="sapUiSmallMarginTop"></Title>
-        </FlexBox>
-        <FlexBox justifyContent="Center">
-            <Title text="Zeb News | Naushad Ahmed Razvi" titleStyle="H5" class="sapUiSmallMarginTop"></Title>
-        </FlexBox>
+    <Page showHeader="false">
+        <content>
+            <FlexBox justifyContent="Center">
+                <Title text="Hazrat Aadam Alaihissalam" titleStyle="H3" class="sapUiSmallMarginTop"></Title>
+            </FlexBox>
+            <FlexBox justifyContent="Center">
+                <Title text="Zeb News | Naushad Ahmed Razvi" titleStyle="H5"
+                    class="sapUiSmallMarginTop"></Title>
+            </FlexBox>
 
-        <FlexBox id="idFlex" justifyContent="Center" class="sapUiMediumMarginTop">
-            <Title text="Part 01">
-                
-            </Title>
-    </FlexBox>
+            <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
+                <Title text="Part 01">
+                </Title>
+            </FlexBox>
 
-    <FlexBox justifyContent="Center" class="sapUiMediumMarginTop" >
-        <ExpandableText 
-        maxCharacters="200"
-        overflowMode="Popover"
-        renderWhitespace="true"
-        textAlign="Center"
-        textDirection="LTR"
-        text="{M1>/Ambiya_e_Kiram/0/Hazrat_Aadam_Alaihissalam/0/text}"></ExpandableText>
-    </FlexBox>
+            <FlexBox justifyContent="Center" class="">
+                <ExpandableText
+                    maxCharacters="200"
+                    overflowMode="Popover"
+                    textAlign="Left"
+                    textDirection="LTR"
+                    class="sapUiSmallMarginBegin"
+                    text="{M1>/Ambiya_e_Kiram/0/Hazrat_Aadam_Alaihissalam/0/text}"></ExpandableText>
+            </FlexBox>
 
-    </content>
-</Page>
+            <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
+                <Title text="Part 02">
+                </Title>
+            </FlexBox>
+
+            <FlexBox justifyContent="Center" class="">
+                <ExpandableText
+                    maxCharacters="200"
+                    overflowMode="Popover"
+                    textAlign="Left"
+                    textDirection="LTR"
+                    class="sapUiSmallMarginBegin"
+                    text="{M1>/Ambiya_e_Kiram/0/Hazrat_Aadam_Alaihissalam/1/text}"></ExpandableText>
+            </FlexBox>
+
+            <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
+                <Title text="Part 03">
+                </Title>
+            </FlexBox>
+
+            <FlexBox justifyContent="Center" class="">
+                <ExpandableText
+                    maxCharacters="200"
+                    overflowMode="Popover"
+                    textAlign="Left"
+                    textDirection="LTR"
+                    class="sapUiSmallMarginBegin"
+                    text="{M1>/Ambiya_e_Kiram/0/Hazrat_Aadam_Alaihissalam/2/text}"></ExpandableText>
+            </FlexBox>
+
+            <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
+                <Title text="Full">
+                </Title>
+            </FlexBox>
+
+            <FlexBox justifyContent="Center">
+                <ExpandableText
+                    maxCharacters="200"
+                    overflowMode="Popover"
+                    textAlign="Left"
+                    textDirection="LTR"
+                    class="sapUiSmallMarginBegin"
+                    text="{M1>/Ambiya_e_Kiram/0/Hazrat_Aadam_Alaihissalam/3/text}"></ExpandableText>
+            </FlexBox>
+
+        </content>
+    </Page>
 </mvc:View>
