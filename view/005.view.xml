@@ -1,16 +1,14 @@
 <mvc:View
-	controllerName=""
-	xmlns:mvc="sap.ui.core.mvc"
-	xmlns="sap.m"
-	xmlns:c="sap.ui.core"
-	displayBlock="true"
-	height="100%"
-	busyIndicatorDelay="0"
+    controllerName=""
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:c="sap.ui.core"
+    displayBlock="true"
+    height="100%"
+    busyIndicatorDelay="0"
 >
-
-<Page showHeader="false">
-	<FlexBox justifyContent="Center">
-        <Title text="Hazrat Hood Alaihissalam" titleStyle="H3" class="sapUiSmallMarginTop"></Title>
+    <FlexBox justifyContent="Center">
+        <Title text="Hazrat Ilyas Alaihissalam" titleStyle="H3" class="sapUiSmallMarginTop"></Title>
     </FlexBox>
     <FlexBox justifyContent="Center">
         <Title text="Zeb News | Naushad Ahmed Razvi" titleStyle="H5"
@@ -29,8 +27,7 @@
             textAlign="Left"
             textDirection="LTR"
             class="sapUiSmallMarginBegin"
-            text="{M1>/Ambiya_e_Kiram/Hazrat_Hood_Alaihissalam/0/text}">
+            text="{M1>/Ambiya_e_Kiram/Hazrat_Ilyas_Alaihissalam/0/text}">
         </ExpandableText>
     </FlexBox>
-</Page>
 </mvc:View>

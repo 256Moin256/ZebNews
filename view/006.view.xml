@@ -1,0 +1,33 @@
+<mvc:View
+	controllerName=""
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	xmlns:c="sap.ui.core"
+	displayBlock="true"
+	height="100%"
+	busyIndicatorDelay="0"
+>
+<FlexBox justifyContent="Center">
+    <Title text="Hazrat Ismail-Ishaaq Alaihissalam" titleStyle="H3" class="sapUiSmallMarginTop"></Title>
+</FlexBox>
+<FlexBox justifyContent="Center">
+    <Title text="Zeb News | Naushad Ahmed Razvi" titleStyle="H5"
+        class="sapUiSmallMarginTop"></Title>
+</FlexBox>
+
+<FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
+    <Title text="Part 01">
+    </Title>
+</FlexBox>
+
+<FlexBox justifyContent="Center" class="">
+    <ExpandableText
+        maxCharacters="200"
+        overflowMode="Popover"
+        textAlign="Left"
+        textDirection="LTR"
+        class="sapUiSmallMarginBegin"
+        text="{M1>/Ambiya_e_Kiram/Hazrat_Ismail-Ishaaq_Alaihissalam/0/text}">
+    </ExpandableText>
+</FlexBox>
+</mvc:View>

@@ -29,7 +29,7 @@
                     textAlign="Left"
                     textDirection="LTR"
                     class="sapUiSmallMarginBegin"
-                    text="{M1>/Ambiya_e_Kiram/0/Hazrat_Aadam_Alaihissalam/0/text}"></ExpandableText>
+                    text="{M1>/Ambiya_e_Kiram/Hazrat_Aadam_Alaihissalam/0/text}"></ExpandableText>
             </FlexBox>
 
             <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
@@ -44,7 +44,7 @@
                     textAlign="Left"
                     textDirection="LTR"
                     class="sapUiSmallMarginBegin"
-                    text="{M1>/Ambiya_e_Kiram/0/Hazrat_Aadam_Alaihissalam/1/text}"></ExpandableText>
+                    text="{M1>/Ambiya_e_Kiram/Hazrat_Aadam_Alaihissalam/1/text}"></ExpandableText>
             </FlexBox>
 
             <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
@@ -59,7 +59,7 @@
                     textAlign="Left"
                     textDirection="LTR"
                     class="sapUiSmallMarginBegin"
-                    text="{M1>/Ambiya_e_Kiram/0/Hazrat_Aadam_Alaihissalam/2/text}"></ExpandableText>
+                    text="{M1>/Ambiya_e_Kiram/Hazrat_Aadam_Alaihissalam/2/text}"></ExpandableText>
             </FlexBox>
 
             <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
@@ -74,7 +74,7 @@
                     textAlign="Left"
                     textDirection="LTR"
                     class="sapUiSmallMarginBegin"
-                    text="{M1>/Ambiya_e_Kiram/0/Hazrat_Aadam_Alaihissalam/3/text}"></ExpandableText>
+                    text="{M1>/Ambiya_e_Kiram/Hazrat_Aadam_Alaihissalam/3/text}"></ExpandableText>
             </FlexBox>
 
         </content>
