@@ -3,46 +3,72 @@
     controllerName="zebnews.controller.Main"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-<Page id="idPage" showHeader="false" backgroundDesign="Transparent">
+    <Page id="idPage" showHeader="false" backgroundDesign="Transparent">
 
-    <content>
-        <FlexBox justifyContent="Center">
-            <Title text="Home" titleStyle="H3" class="sapUiSmallMarginTop"></Title>
-        </FlexBox>
-        <FlexBox justifyContent="Center">
-            <Title text="Zeb News | Naushad Ahmed Razvi" titleStyle="H5" class="sapUiSmallMarginTop"></Title>
-        </FlexBox>
-        
-    <FlexBox id="idFlex" justifyContent="Center" class="sapUiSmallMarginTop">
-        <Label ></Label>
-        <tnt:NavigationList
-        selectedKey=""
-        width="80vw"
-        >
-        <tnt:items>
-            <tnt:NavigationListItem id="AAA" text="Ambiya e Kiram" expanded="false" select="expand">
-                <tnt:items>
-                    <tnt:NavigationListItem id="001" text="Hazrat Aadam Alaihissalam" select="select"/>
-                    <tnt:NavigationListItem id="002" text="Hazrat Ayyub Alaihissalam" select="select"/>
-                    <tnt:NavigationListItem id="003" text="Hazrat Hood Alaihissalam" select="select"/>
-                    <tnt:NavigationListItem id="004" text="Hazrat Ibrahim Alaihissalam" select="select"/>
-                    <tnt:NavigationListItem id="005" text="Hazrat Ilyas Alaihissalam" select="select"/>
-                    <tnt:NavigationListItem id="006" text="Hazrat Ismail-Ishaaq Alaihissalam" select="select"/>
-                    <tnt:NavigationListItem id="007" text="Hazrat Khizr Alaihissalam" select="select"/>
-                    <tnt:NavigationListItem id="008" text="Hazrat Loot Alaihissalam" select="select"/>
-                    <tnt:NavigationListItem id="009" text="Hazrat Nooh Alaihissalam" select="select"/>
-                    <tnt:NavigationListItem id="010" text="Hazrat Saleh Alaihissalam" select="select"/>
-                    <tnt:NavigationListItem id="011" text="Hazrat Sheesh-Idris Alaihissalam" select="select"/>
-                    <tnt:NavigationListItem id="012" text="Hazrat Yaqoob Alaihissalam" select="select"/>
-                    <tnt:NavigationListItem id="013" text="Hazrat Yunus Alaihissalam" select="select"/>
-                    <tnt:NavigationListItem id="014" text="Hazrat Yusuf Alaihissalam" select="select"/>
-                    <tnt:NavigationListItem id="015" text="Hazrat Zulkifl-Yasa Alaihissalam" select="select"/>
-                    <tnt:NavigationListItem id="016" text="Hazrat Moosa Alaihissalam" select="select"/>
-                </tnt:items>
-            </tnt:NavigationListItem>
-        </tnt:items>
-    </tnt:NavigationList>
-</FlexBox>
-</content>
-</Page>
+        <content>
+            <FlexBox justifyContent="Center">
+                <Title text="Home" titleStyle="H3" class="sapUiSmallMarginTop"></Title>
+            </FlexBox>
+            <FlexBox justifyContent="Center">
+                <Title text="Zeb News | Naushad Ahmed Razvi" titleStyle="H5"
+                    class="sapUiSmallMarginTop"></Title>
+            </FlexBox>
+
+            <FlexBox id="idFlex" justifyContent="Center" class="sapUiSmallMarginTop">
+                <Label></Label>
+                <tnt:NavigationList
+                    selectedKey=""
+                    width="80vw"
+                >
+                    <tnt:items>
+                        <tnt:NavigationListItem id="AAA" text="Ambiya e Kiram" expanded="false"
+                            select="expand">
+                            <tnt:items>
+                                <tnt:NavigationListItem id="001" text="Hazrat Aadam Alaihissalam"
+                                    select="select" />
+                                <tnt:NavigationListItem id="002" text="Hazrat Ayyub Alaihissalam"
+                                    select="select" />
+                                <tnt:NavigationListItem id="003" text="Hazrat Hood Alaihissalam"
+                                    select="select" />
+                                <tnt:NavigationListItem id="004" text="Hazrat Ibrahim Alaihissalam"
+                                    select="select" />
+                                <tnt:NavigationListItem id="005" text="Hazrat Ilyas Alaihissalam"
+                                    select="select" />
+                                <tnt:NavigationListItem id="006"
+                                    text="Hazrat Ismail-Ishaaq Alaihissalam" select="select" />
+                                <tnt:NavigationListItem id="007" text="Hazrat Khizr Alaihissalam"
+                                    select="select" />
+                                <tnt:NavigationListItem id="008" text="Hazrat Loot Alaihissalam"
+                                    select="select" />
+                                <tnt:NavigationListItem id="009" text="Hazrat Nooh Alaihissalam"
+                                    select="select" />
+                                <tnt:NavigationListItem id="010" text="Hazrat Saleh Alaihissalam"
+                                    select="select" />
+                                <tnt:NavigationListItem id="011"
+                                    text="Hazrat Sheesh-Idris Alaihissalam" select="select" />
+                                <tnt:NavigationListItem id="012" text="Hazrat Yaqoob Alaihissalam"
+                                    select="select" />
+                                <tnt:NavigationListItem id="013" text="Hazrat Yunus Alaihissalam"
+                                    select="select" />
+                                <tnt:NavigationListItem id="014" text="Hazrat Yusuf Alaihissalam"
+                                    select="select" />
+                                <tnt:NavigationListItem id="015"
+                                    text="Hazrat Zulkifl-Yasa Alaihissalam" select="select" />
+                                <tnt:NavigationListItem id="016" text="Hazrat Moosa Alaihissalam"
+                                    select="select" />
+                            </tnt:items>
+                        </tnt:NavigationListItem>
+                    </tnt:items>
+                </tnt:NavigationList>
+            </FlexBox>
+        </content>
+        <footer>
+            <OverflowToolbar>
+                <!-- <ToolbarSpacer/> -->
+                <FlexBox justifyContent="Center">
+                    <Label text="Powered by UASF" design="Bold" displayOnly="true" textAlign="Center" width="100vw"></Label>
+                </FlexBox>
+            </OverflowToolbar>
+        </footer>
+    </Page>
 </mvc:View>
