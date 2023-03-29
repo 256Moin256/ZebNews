@@ -1,0 +1,5 @@
+<OverflowToolbar xmlns="sap.m">
+    <FlexBox justifyContent="Center">
+        <Label text="Powered by UASF" design="Bold" displayOnly="true" textAlign="Center" width="100vw"></Label>
+    </FlexBox>
+</OverflowToolbar>

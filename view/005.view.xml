@@ -7,6 +7,7 @@
     height="100%"
     busyIndicatorDelay="0"
 >
+<Page showHeader="false">
     <FlexBox justifyContent="Center">
         <Title text="Hazrat Ilyas Alaihissalam" titleStyle="H3" class="sapUiSmallMarginTop"></Title>
     </FlexBox>
@@ -30,4 +31,8 @@
             text="{M1>/Ambiya_e_Kiram/Hazrat_Ilyas_Alaihissalam/0/text}">
         </ExpandableText>
     </FlexBox>
+    <footer>
+        <c:Fragment fragmentName="zebnews.view.power" type="XML" />
+    </footer>
+</Page>
 </mvc:View>

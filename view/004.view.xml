@@ -96,5 +96,8 @@
         </ExpandableText>
     </FlexBox>
 
+    <footer>
+        <c:Fragment fragmentName="zebnews.view.power" type="XML" />
+    </footer>
 </Page>
 </mvc:View>

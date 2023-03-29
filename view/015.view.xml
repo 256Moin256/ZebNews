@@ -9,7 +9,7 @@
 >
 <Page showHeader="false">
     <FlexBox justifyContent="Center">
-        <Title text="Hazrat Loot Alaihissalam" titleStyle="H3" class="sapUiSmallMarginTop"></Title>
+        <Title text="Hazrat Zulkifl Alaihissalam" titleStyle="H3" class="sapUiSmallMarginTop"></Title>
     </FlexBox>
     <FlexBox justifyContent="Center">
         <Title text="Zeb News | Naushad Ahmed Razvi" titleStyle="H5"
@@ -17,7 +17,7 @@
     </FlexBox>
     
     <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
-        <Title text="Part 01">
+        <Title text="Hazrat Zulkifl Alaihissalam">
         </Title>
     </FlexBox>
     
@@ -28,11 +28,13 @@
             textAlign="Left"
             textDirection="LTR"
             class="sapUiSmallMarginBegin"
-            text="{M1>/Ambiya_e_Kiram/Hazrat_Loot_Alaihissalam/0/text}">
+            text="{M1>/Ambiya_e_Kiram/Hazrat_Zulkifl-Yasa_Alaihissalam/0/text}">
         </ExpandableText>
     </FlexBox>
+
     <footer>
         <c:Fragment fragmentName="zebnews.view.power" type="XML" />
     </footer>
+    
 </Page>
 </mvc:View>

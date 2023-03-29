@@ -63,5 +63,8 @@
             text="{M1>/Ambiya_e_Kiram/Hazrat_Nooh_Alaihissalam/2/text}">
         </ExpandableText>
     </FlexBox>
+    <footer>
+        <c:Fragment fragmentName="zebnews.view.power" type="XML" />
+    </footer>
 </Page>
 </mvc:View>

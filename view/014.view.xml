@@ -239,5 +239,8 @@
             text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/13/text}">
         </ExpandableText>
     </FlexBox>
+    <footer>
+        <c:Fragment fragmentName="zebnews.view.power" type="XML" />
+    </footer>
 </Page>
 </mvc:View>
