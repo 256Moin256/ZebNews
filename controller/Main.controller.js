@@ -63,6 +63,15 @@ sap.ui.define(
            } else {
             oEx.setExpanded(true);
            }
-        }
+        },
+        toggleCheck: function(oEvent) {
+            if (oEvent.mParameters.pressed === true) {
+              sap.ui.getCore().applyTheme("sap_horizon_dark");
+              oEvent.oSource.mProperties.text = "🌙";
+            }else{
+              sap.ui.getCore().applyTheme("sap_horizon");
+              oEvent.oSource.mProperties.text = "☀️";
+            }
+          }
     });
 });

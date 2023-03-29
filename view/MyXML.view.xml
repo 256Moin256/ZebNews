@@ -12,7 +12,8 @@
         <FlexBox justifyContent="Center">
             <Title text="Zeb News | Naushad Ahmed Razvi" titleStyle="H5" class="sapUiSmallMarginTop"></Title>
         </FlexBox>
-    <FlexBox id="idFlex" justifyContent="Center" class="sapUiMediumMarginTop">
+        
+    <FlexBox id="idFlex" justifyContent="Center" class="sapUiSmallMarginTop">
         <Label ></Label>
         <tnt:NavigationList
         selectedKey=""
