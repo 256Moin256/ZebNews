@@ -7,15 +7,9 @@
     height="100%"
     busyIndicatorDelay="0"
 >
-    <Page showHeader="false">
+    <Page title="Hazrat Aadam Alaihissalam" titleAlignment="Center" showNavButton="true" navButtonPress="back">
         <content>
-            <FlexBox justifyContent="Center">
-                <Title text="Hazrat Aadam Alaihissalam" titleStyle="H3" class="sapUiSmallMarginTop"></Title>
-            </FlexBox>
-            <FlexBox justifyContent="Center">
-                <Title text="Zeb News | Naushad Ahmed Razvi" titleStyle="H5"
-                    class="sapUiSmallMarginTop"></Title>
-            </FlexBox>
+            <core:Fragment fragmentName="zebnews.view.name" type="XML" />
 
             <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
                 <Title text="Part 01">

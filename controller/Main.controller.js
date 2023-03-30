@@ -1,23 +1,23 @@
 sap.ui.define(
     [
         'sap/ui/core/mvc/Controller',
-        "zebnews/model/Model"
+        "sap/ui/core/routing/History"
     ],
-    function (Controller, Model) {
+    function (Controller, History) {
         'use strict';
         return Controller.extend("zebnews.controller.Main", {
-
+            
             onInit: function () {
-
+               
             },
             onExit: function () {
-
+               
             },
             onBeforeRendering: function () {
 
             },
             onAfterRendering: function () {
-
+               
             },
             select: function (params) {
                 // debugger;
@@ -66,14 +66,14 @@ sap.ui.define(
                     // oEx.setExpanded(true);
                    }
             },
-            toggleCheck: function (oEvent) {
-                if (oEvent.mParameters.pressed === true) {
-                    sap.ui.getCore().applyTheme("sap_horizon_dark");
-                    oEvent.oSource.mProperties.text = "🌙";
+            back: function() {
+                var sPreviousHash = History.getInstance().getPreviousHash();
+                if (sPreviousHash !== undefined) {
+                    window.history.go(-1);
                 } else {
-                    sap.ui.getCore().applyTheme("sap_horizon");
-                    oEvent.oSource.mProperties.text = "☀️";
+                    this.getOwnerComponent().getRouter().navTo("overview", {}, true);
                 }
-            },
+            }
+           
         });
     });

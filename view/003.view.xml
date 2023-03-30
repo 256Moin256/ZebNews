@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName=""
+	controllerName="zebnews.controller.Main"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns="sap.m"
 	xmlns:c="sap.ui.core"
@@ -8,14 +8,9 @@
 	busyIndicatorDelay="0"
 >
 
-<Page showHeader="false">
-	<FlexBox justifyContent="Center">
-        <Title text="Hazrat Hood Alaihissalam" titleStyle="H3" class="sapUiSmallMarginTop"></Title>
-    </FlexBox>
-    <FlexBox justifyContent="Center">
-        <Title text="Zeb News | Naushad Ahmed Razvi" titleStyle="H5"
-            class="sapUiSmallMarginTop"></Title>
-    </FlexBox>
+<Page title="Hazrat Hood Alaihissalam" titleAlignment="Center" showNavButton="true" navButtonPress="back">
+    
+        <c:Fragment fragmentName="zebnews.view.name" type="XML" />
 
     <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
         <Title text="Part 01">
