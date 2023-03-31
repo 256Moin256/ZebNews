@@ -1,38 +1,23 @@
-<mvc:View
-	controllerName=""
-	xmlns:mvc="sap.ui.core.mvc"
-	xmlns="sap.m"
-	xmlns:c="sap.ui.core"
-	displayBlock="true"
-	height="100%"
-	busyIndicatorDelay="0"
->
-<Page showHeader="false">
-    <FlexBox justifyContent="Center">
-        <Title text="Hazrat Saleh Alaihissalam" titleStyle="H3" class="sapUiSmallMarginTop"></Title>
-    </FlexBox>
-    <FlexBox justifyContent="Center">
-        <Title text="Zeb News | Naushad Ahmed Razvi" titleStyle="H5"
-            class="sapUiSmallMarginTop"></Title>
-    </FlexBox>
-    
-    <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
-        <Title text="Part 01">
-        </Title>
-    </FlexBox>
-    
-    <FlexBox justifyContent="Center" class="">
-        <ExpandableText
-            maxCharacters="200"
-            overflowMode="Popover"
-            textAlign="Left"
-            textDirection="LTR"
-            class="sapUiSmallMarginBegin"
-            text="{M1>/Ambiya_e_Kiram/Hazrat_Saleh_Alaihissalam/0/text}">
-        </ExpandableText>
-    </FlexBox>
-    <footer>
-        <c:Fragment fragmentName="zebnews.view.power" type="XML" />
-    </footer>
-</Page>
+<mvc:View controllerName="zebnews.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:c="sap.ui.core" displayBlock="true" height="100%" busyIndicatorDelay="0">
+    <Page title="Hazrat Saleh Alaihissalam" titleAlignment="Center" showNavButton="true" navButtonPress="back">
+        <content>
+            <c:Fragment fragmentName="zebnews.view.name" type="XML" />
+
+            <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
+                <Title text="Part 01">
+                </Title>
+            </FlexBox>
+
+            <FlexBox justifyContent="Center" class="">
+                <ExpandableText maxCharacters="200" overflowMode="Popover" textAlign="Left" textDirection="LTR" class="sapUiSmallMarginBegin" text="{M1>/Ambiya_e_Kiram/Hazrat_Saleh_Alaihissalam/0/text}">
+                </ExpandableText>
+            </FlexBox>
+        </content>
+        <footer>
+            <c:Fragment fragmentName="zebnews.view.power" type="XML" />
+        </footer>
+    </Page>
 </mvc:View>

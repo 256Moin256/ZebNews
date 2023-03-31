@@ -8,7 +8,7 @@ sap.ui.define(
         return Controller.extend("zebnews.controller.Main", {
             
             onInit: function () {
-               
+                
             },
             onExit: function () {
                
@@ -56,7 +56,7 @@ sap.ui.define(
                 }
             },
             expand: function (oExpand) {
-                //    var oEx = this.getView().byId("AAA");
+                   
                 //    var oValue = oEx.getExpanded();
                    if (oExpand.getSource().getExpanded() === true) {
                     oExpand.getSource().setExpanded(false);

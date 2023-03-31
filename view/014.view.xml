@@ -1,246 +1,153 @@
-<mvc:View
-	controllerName=""
-	xmlns:mvc="sap.ui.core.mvc"
-	xmlns="sap.m"
-	xmlns:c="sap.ui.core"
-	displayBlock="true"
-	height="100%"
-	busyIndicatorDelay="0"
->
-<Page showHeader="false">
-    <FlexBox justifyContent="Center">
-        <Title text="Hazrat Yusuf Alaihissalam" titleStyle="H3" class="sapUiSmallMarginTop"></Title>
-    </FlexBox>
-    <FlexBox justifyContent="Center">
-        <Title text="Zeb News | Naushad Ahmed Razvi" titleStyle="H5"
-            class="sapUiSmallMarginTop"></Title>
-    </FlexBox>
-    
-    <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
-        <Title text="Part 01">
-        </Title>
-    </FlexBox>
-    
-    <FlexBox justifyContent="Center" class="">
-        <ExpandableText
-            maxCharacters="200"
-            overflowMode="Popover"
-            textAlign="Left"
-            textDirection="LTR"
-            class="sapUiSmallMarginBegin"
-            text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/0/text}">
-        </ExpandableText>
-    </FlexBox>
+<mvc:View controllerName="zebnews.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:c="sap.ui.core" displayBlock="true" height="100%" busyIndicatorDelay="0">
+    <Page title="Hazrat Yusuf Alaihissalam" titleAlignment="Center" showNavButton="true" navButtonPress="back">
+        <content>
+            <c:Fragment fragmentName="zebnews.view.name" type="XML" />
 
-    <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
-        <Title text="Part 02">
-        </Title>
-    </FlexBox>
-    
-    <FlexBox justifyContent="Center" class="">
-        <ExpandableText
-            maxCharacters="200"
-            overflowMode="Popover"
-            textAlign="Left"
-            textDirection="LTR"
-            class="sapUiSmallMarginBegin"
-            text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/1/text}">
-        </ExpandableText>
-    </FlexBox>
+            <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
+                <Title text="Part 01">
+                </Title>
+            </FlexBox>
 
-    <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
-        <Title text="Part 03">
-        </Title>
-    </FlexBox>
-    
-    <FlexBox justifyContent="Center" class="">
-        <ExpandableText
-            maxCharacters="200"
-            overflowMode="Popover"
-            textAlign="Left"
-            textDirection="LTR"
-            class="sapUiSmallMarginBegin"
-            text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/2/text}">
-        </ExpandableText>
-    </FlexBox>
+            <FlexBox justifyContent="Center" class="">
+                <ExpandableText maxCharacters="200" overflowMode="Popover" textAlign="Left" textDirection="LTR" class="sapUiSmallMarginBegin" text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/0/text}">
+                </ExpandableText>
+            </FlexBox>
 
-    <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
-        <Title text="Part 04">
-        </Title>
-    </FlexBox>
-    
-    <FlexBox justifyContent="Center" class="">
-        <ExpandableText
-            maxCharacters="200"
-            overflowMode="Popover"
-            textAlign="Left"
-            textDirection="LTR"
-            class="sapUiSmallMarginBegin"
-            text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/3/text}">
-        </ExpandableText>
-    </FlexBox>
+            <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
+                <Title text="Part 02">
+                </Title>
+            </FlexBox>
 
-    <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
-        <Title text="Part 05">
-        </Title>
-    </FlexBox>
-    
-    <FlexBox justifyContent="Center" class="">
-        <ExpandableText
-            maxCharacters="200"
-            overflowMode="Popover"
-            textAlign="Left"
-            textDirection="LTR"
-            class="sapUiSmallMarginBegin"
-            text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/4/text}">
-        </ExpandableText>
-    </FlexBox>
+            <FlexBox justifyContent="Center" class="">
+                <ExpandableText maxCharacters="200" overflowMode="Popover" textAlign="Left" textDirection="LTR" class="sapUiSmallMarginBegin" text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/1/text}">
+                </ExpandableText>
+            </FlexBox>
 
-    <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
-        <Title text="Part 06">
-        </Title>
-    </FlexBox>
-    
-    <FlexBox justifyContent="Center" class="">
-        <ExpandableText
-            maxCharacters="200"
-            overflowMode="Popover"
-            textAlign="Left"
-            textDirection="LTR"
-            class="sapUiSmallMarginBegin"
-            text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/5/text}">
-        </ExpandableText>
-    </FlexBox>
+            <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
+                <Title text="Part 03">
+                </Title>
+            </FlexBox>
 
-    <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
-        <Title text="Part 07">
-        </Title>
-    </FlexBox>
-    
-    <FlexBox justifyContent="Center" class="">
-        <ExpandableText
-            maxCharacters="200"
-            overflowMode="Popover"
-            textAlign="Left"
-            textDirection="LTR"
-            class="sapUiSmallMarginBegin"
-            text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/6/text}">
-        </ExpandableText>
-    </FlexBox>
+            <FlexBox justifyContent="Center" class="">
+                <ExpandableText maxCharacters="200" overflowMode="Popover" textAlign="Left" textDirection="LTR" class="sapUiSmallMarginBegin" text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/2/text}">
+                </ExpandableText>
+            </FlexBox>
 
-    <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
-        <Title text="Part 08">
-        </Title>
-    </FlexBox>
-    
-    <FlexBox justifyContent="Center" class="">
-        <ExpandableText
-            maxCharacters="200"
-            overflowMode="Popover"
-            textAlign="Left"
-            textDirection="LTR"
-            class="sapUiSmallMarginBegin"
-            text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/7/text}">
-        </ExpandableText>
-    </FlexBox>
+            <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
+                <Title text="Part 04">
+                </Title>
+            </FlexBox>
 
-    <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
-        <Title text="Part 09">
-        </Title>
-    </FlexBox>
-    
-    <FlexBox justifyContent="Center" class="">
-        <ExpandableText
-            maxCharacters="200"
-            overflowMode="Popover"
-            textAlign="Left"
-            textDirection="LTR"
-            class="sapUiSmallMarginBegin"
-            text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/8/text}">
-        </ExpandableText>
-    </FlexBox>
+            <FlexBox justifyContent="Center" class="">
+                <ExpandableText maxCharacters="200" overflowMode="Popover" textAlign="Left" textDirection="LTR" class="sapUiSmallMarginBegin" text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/3/text}">
+                </ExpandableText>
+            </FlexBox>
 
-    <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
-        <Title text="Part 10">
-        </Title>
-    </FlexBox>
-    
-    <FlexBox justifyContent="Center" class="">
-        <ExpandableText
-            maxCharacters="200"
-            overflowMode="Popover"
-            textAlign="Left"
-            textDirection="LTR"
-            class="sapUiSmallMarginBegin"
-            text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/9/text}">
-        </ExpandableText>
-    </FlexBox>
+            <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
+                <Title text="Part 05">
+                </Title>
+            </FlexBox>
 
-    <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
-        <Title text="Part 11">
-        </Title>
-    </FlexBox>
-    
-    <FlexBox justifyContent="Center" class="">
-        <ExpandableText
-            maxCharacters="200"
-            overflowMode="Popover"
-            textAlign="Left"
-            textDirection="LTR"
-            class="sapUiSmallMarginBegin"
-            text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/10/text}">
-        </ExpandableText>
-    </FlexBox>
+            <FlexBox justifyContent="Center" class="">
+                <ExpandableText maxCharacters="200" overflowMode="Popover" textAlign="Left" textDirection="LTR" class="sapUiSmallMarginBegin" text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/4/text}">
+                </ExpandableText>
+            </FlexBox>
 
-    <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
-        <Title text="Part 12">
-        </Title>
-    </FlexBox>
-    
-    <FlexBox justifyContent="Center" class="">
-        <ExpandableText
-            maxCharacters="200"
-            overflowMode="Popover"
-            textAlign="Left"
-            textDirection="LTR"
-            class="sapUiSmallMarginBegin"
-            text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/11/text}">
-        </ExpandableText>
-    </FlexBox>
+            <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
+                <Title text="Part 06">
+                </Title>
+            </FlexBox>
 
-    <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
-        <Title text="Part 13">
-        </Title>
-    </FlexBox>
-    
-    <FlexBox justifyContent="Center" class="">
-        <ExpandableText
-            maxCharacters="200"
-            overflowMode="Popover"
-            textAlign="Left"
-            textDirection="LTR"
-            class="sapUiSmallMarginBegin"
-            text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/12/text}">
-        </ExpandableText>
-    </FlexBox>
+            <FlexBox justifyContent="Center" class="">
+                <ExpandableText maxCharacters="200" overflowMode="Popover" textAlign="Left" textDirection="LTR" class="sapUiSmallMarginBegin" text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/5/text}">
+                </ExpandableText>
+            </FlexBox>
 
-    <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
-        <Title text="Part 14">
-        </Title>
-    </FlexBox>
-    
-    <FlexBox justifyContent="Center" class="">
-        <ExpandableText
-            maxCharacters="200"
-            overflowMode="Popover"
-            textAlign="Left"
-            textDirection="LTR"
-            class="sapUiSmallMarginBegin"
-            text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/13/text}">
-        </ExpandableText>
-    </FlexBox>
-    <footer>
-        <c:Fragment fragmentName="zebnews.view.power" type="XML" />
-    </footer>
-</Page>
+            <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
+                <Title text="Part 07">
+                </Title>
+            </FlexBox>
+
+            <FlexBox justifyContent="Center" class="">
+                <ExpandableText maxCharacters="200" overflowMode="Popover" textAlign="Left" textDirection="LTR" class="sapUiSmallMarginBegin" text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/6/text}">
+                </ExpandableText>
+            </FlexBox>
+
+            <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
+                <Title text="Part 08">
+                </Title>
+            </FlexBox>
+
+            <FlexBox justifyContent="Center" class="">
+                <ExpandableText maxCharacters="200" overflowMode="Popover" textAlign="Left" textDirection="LTR" class="sapUiSmallMarginBegin" text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/7/text}">
+                </ExpandableText>
+            </FlexBox>
+
+            <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
+                <Title text="Part 09">
+                </Title>
+            </FlexBox>
+
+            <FlexBox justifyContent="Center" class="">
+                <ExpandableText maxCharacters="200" overflowMode="Popover" textAlign="Left" textDirection="LTR" class="sapUiSmallMarginBegin" text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/8/text}">
+                </ExpandableText>
+            </FlexBox>
+
+            <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
+                <Title text="Part 10">
+                </Title>
+            </FlexBox>
+
+            <FlexBox justifyContent="Center" class="">
+                <ExpandableText maxCharacters="200" overflowMode="Popover" textAlign="Left" textDirection="LTR" class="sapUiSmallMarginBegin" text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/9/text}">
+                </ExpandableText>
+            </FlexBox>
+
+            <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
+                <Title text="Part 11">
+                </Title>
+            </FlexBox>
+
+            <FlexBox justifyContent="Center" class="">
+                <ExpandableText maxCharacters="200" overflowMode="Popover" textAlign="Left" textDirection="LTR" class="sapUiSmallMarginBegin" text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/10/text}">
+                </ExpandableText>
+            </FlexBox>
+
+            <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
+                <Title text="Part 12">
+                </Title>
+            </FlexBox>
+
+            <FlexBox justifyContent="Center" class="">
+                <ExpandableText maxCharacters="200" overflowMode="Popover" textAlign="Left" textDirection="LTR" class="sapUiSmallMarginBegin" text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/11/text}">
+                </ExpandableText>
+            </FlexBox>
+
+            <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
+                <Title text="Part 13">
+                </Title>
+            </FlexBox>
+
+            <FlexBox justifyContent="Center" class="">
+                <ExpandableText maxCharacters="200" overflowMode="Popover" textAlign="Left" textDirection="LTR" class="sapUiSmallMarginBegin" text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/12/text}">
+                </ExpandableText>
+            </FlexBox>
+
+            <FlexBox justifyContent="Center" class="sapUiMediumMarginTop">
+                <Title text="Part 14">
+                </Title>
+            </FlexBox>
+
+            <FlexBox justifyContent="Center" class="">
+                <ExpandableText maxCharacters="200" overflowMode="Popover" textAlign="Left" textDirection="LTR" class="sapUiSmallMarginBegin" text="{M1>/Ambiya_e_Kiram/Hazrat_Yusuf_Alaihissalam/13/text}">
+                </ExpandableText>
+            </FlexBox>
+        </content>
+        <footer>
+            <c:Fragment fragmentName="zebnews.view.power" type="XML" />
+        </footer>
+    </Page>
 </mvc:View>
