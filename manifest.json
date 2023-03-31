@@ -2,7 +2,7 @@
   "_version": "1.50.0",
   "sap.app": {
     "id": "zebnews",
-    "applicationVersion": "1.0.0",
+    "applicationVersion":{"version": "1.0.0"},
     "description": "Zeb News",
     "title": "Zeb News",
     "type": "application"
