@@ -258,6 +258,10 @@
       "M1": {
         "type": "sap.ui.model.json.JSONModel",
         "uri": "model/data/models.json"
+      },
+      "M2": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "model/data/question.json"
       }
     }
   }
