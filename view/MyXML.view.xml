@@ -29,6 +29,11 @@
                                 <tnt:NavigationListItem id="016" text="Hazrat Moosa Alaihissalam" select="select" />
                             </tnt:items>
                         </tnt:NavigationListItem>
+                        <tnt:NavigationListItem id="AAB" text="Sawaal-Jawaab" expanded="false" select="expand">
+                        <tnt:items>
+                            <tnt:NavigationListItem id="017" class="sapUiCoreDefaultFont" text="Saare Sawaal-Jawaab" select="select" ></tnt:NavigationListItem>
+                        </tnt:items>
+                        </tnt:NavigationListItem>
                     </tnt:items>
                 </tnt:NavigationList>
             </FlexBox>

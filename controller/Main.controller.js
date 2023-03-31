@@ -53,6 +53,8 @@ sap.ui.define(
                     this.getOwnerComponent().getRouter().navTo("015");
                 } else if (params.mParameters.id == '__xmlview0--016') {
                     this.getOwnerComponent().getRouter().navTo("016");
+                } else if (params.mParameters.id == '__xmlview0--017') {
+                    this.getOwnerComponent().getRouter().navTo("017");
                 }
             },
             expand: function (oExpand) {

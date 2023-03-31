@@ -123,6 +123,11 @@
           "name": "016",
           "target": "016",
           "pattern": "Hazrat_Moosa_Alaihissalam"
+        },
+        {
+          "name": "017",
+          "target": "017",
+          "pattern": "Saare_Sawaal_Jawaab"
         }
       ],
       "targets": {
@@ -242,6 +247,13 @@
           "viewName": "016",
           "controlAggregation": "pages",
           "viewLevel": 16,
+          "clearControlAggregation": true,
+          "transition": "show"
+        },
+        "017": {
+          "viewName": "017",
+          "controlAggregation": "pages",
+          "viewLevel": 17,
           "clearControlAggregation": true,
           "transition": "show"
         }
