@@ -1,0 +1,15 @@
+<c:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:c="sap.ui.core"
+>
+    <Column>
+        <header>
+            <FlexBox justifyContent="Center">
+                <items>
+                    <Label text="{M3>title}" design="Bold" displayOnly="true"
+                        textAlign="Center" width="100vw"></Label>
+                </items>
+            </FlexBox>
+        </header>
+    </Column>
+</c:FragmentDefinition>

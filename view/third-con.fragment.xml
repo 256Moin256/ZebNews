@@ -1,0 +1,18 @@
+<c:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:c="sap.ui.core"
+>
+    <ColumnListItem vAlign="Middle">
+        <cells>
+            <FlexBox justifyContent="Center">
+                <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop">
+                    <Text text="{M3>content/part}" textAlign="Center" width="100vw"></Text>
+                    <ExpandableText maxCharacters="200" overflowMode="Popover"
+                        textAlign="Center" textDirection="LTR"
+                        class="" text="{M3>content/text}">
+                    </ExpandableText>
+                </VBox>
+            </FlexBox>
+        </cells>
+    </ColumnListItem>
+</c:FragmentDefinition>

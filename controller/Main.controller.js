@@ -4,36 +4,39 @@ sap.ui.define(
     "sap/ui/core/routing/History",
     "sap/m/MessageBox",
     "sap/ui/model/Filter",
-	"sap/ui/model/FilterOperator",
+    "sap/ui/model/FilterOperator",
   ],
   function (Controller, History, MessageBox, Filter, FilterOperator) {
     "use strict";
     return Controller.extend("zebnews.controller.Main", {
       onInit: function () {
         var oView = this.getView();
-        if (oView.sViewName === "zebnews.view.MyXML") {
-          MessageBox.confirm("Do you want enable night mode?", {
-            title: "Confirm", // default
-            onClose: null, // default
-            styleClass: "", // default
-            actions: [MessageBox.Action.YES, MessageBox.Action.NO], // default
-            initialFocus: null, // default
-            textDirection: sap.ui.core.TextDirection.Inherit, // default
-            onClose: function (oAction) {
-              if (oAction === MessageBox.Action.YES) {
-                sap.ui.getCore().applyTheme("sap_fiori_3_dark");
-              }
-            },
-          });
-        }
+        // if (oView.sViewName === "zebnews.view.MyXML") {
+        //   MessageBox.confirm("Do you want enable night mode?", {
+        //     title: "Confirm", // default
+        //     onClose: null, // default
+        //     styleClass: "", // default
+        //     actions: [MessageBox.Action.YES, MessageBox.Action.NO], // default
+        //     initialFocus: null, // default
+        //     textDirection: sap.ui.core.TextDirection.Inherit, // default
+        //     onClose: function (oAction) {
+        //       if (oAction === MessageBox.Action.YES) {
+        //         sap.ui.getCore().applyTheme("sap_fiori_3_dark");
+        //       }
+        //     },
+        //   });
+        // }
       },
       onExit: function () {},
       onBeforeRendering: function () {},
       onAfterRendering: function () {},
       select: function (params) {
-        // debugger;
+        debugger;
+        var oPage = this.getView().byId("idPage");
+        oPage.setBusy(true);
         if (params.mParameters.id == "__xmlview0--001") {
           this.getOwnerComponent().getRouter().navTo("001");
+          
         } else if (params.mParameters.id == "__xmlview0--002") {
           this.getOwnerComponent().getRouter().navTo("002");
         } else if (params.mParameters.id == "__xmlview0--003") {
@@ -66,7 +69,10 @@ sap.ui.define(
           this.getOwnerComponent().getRouter().navTo("016");
         } else if (params.mParameters.id == "__xmlview0--017") {
           this.getOwnerComponent().getRouter().navTo("017");
+        } else if (params.mParameters.id == "__xmlview0--018") {
+          this.getOwnerComponent().getRouter().navTo("018");
         }
+        oPage.setBusy(false);
       },
       expand: function (oExpand) {
         //    var oValue = oEx.getExpanded();

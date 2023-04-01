@@ -128,6 +128,11 @@
           "name": "017",
           "target": "017",
           "pattern": "Saare_Sawaal_Jawaab"
+        },
+        {
+          "name": "018",
+          "target": "018",
+          "pattern": "400_saal_ki_ibadat"
         }
       ],
       "targets": {
@@ -256,6 +261,13 @@
           "viewLevel": 17,
           "clearControlAggregation": true,
           "transition": "show"
+        },
+        "018": {
+          "viewName": "018",
+          "controlAggregation": "pages",
+          "viewLevel": 18,
+          "clearControlAggregation": true,
+          "transition": "show"
         }
       }
     },
@@ -274,6 +286,10 @@
       "M2": {
         "type": "sap.ui.model.json.JSONModel",
         "uri": "model/data/question.json"
+      },
+      "M3": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "model/data/third.json"
       }
     }
   }

@@ -1,0 +1,36 @@
+<mvc:View
+    controllerName="zebnews.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:c="sap.ui.core"
+    displayBlock="true"
+    height="100%"
+    busyIndicatorDelay="0"
+>
+    <Page title="400 saal ki ibadat" titleAlignment="Center" showNavButton="true"
+        navButtonPress="back">
+        <content>
+            <c:Fragment fragmentName="zebnews.view.name" type="XML" />
+
+            <Table items="{M3>/third/018}"
+                backgroundDesign="Solid"
+                growing="true"
+                growingScrollToLoad="true"
+                id="idTable"
+                alternateRowColors="true"
+                >
+                <columns>
+                    <c:Fragment fragmentName="zebnews.view.third-title" type="XML" />
+                </columns>
+                <items>
+                    <c:Fragment fragmentName="zebnews.view.third-con" type="XML" />
+                </items>
+            </Table>
+        </content>
+
+        <footer>
+            <c:Fragment fragmentName="zebnews.view.power" type="XML" />
+        </footer>
+
+    </Page>
+</mvc:View>
