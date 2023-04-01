@@ -11,7 +11,45 @@
         navButtonPress="back">
         <content>
             <c:Fragment fragmentName="zebnews.view.name" type="XML" />
+
+            <Table
+                items="{M2>/QA}"
+                backgroundDesign="Solid"
+                growing="true"
+                growingScrollToLoad="true"
+                id="idTable"
+                alternateRowColors="true">
+                <columns>
+                    <Column>
+                        <header>
+                            <FlexBox justifyContent="Center">
+                                <items>
+                                    <Label  text="Sawaal-Jawaab" design="Bold" displayOnly="true"
+                                        textAlign="Center" width="100vw"></Label>
+                                </items>
+                            </FlexBox>
+                        </header>
+                    </Column>
+                   
+                </columns>
+                <items>
+                    <ColumnListItem vAlign="Middle">
+                        <cells>
+                            <FlexBox justifyContent="Center">
+                                <VBox class="sapUiSmallMarginBottom sapUiSmallMarginTop">
+                                    <Text text="{M2>part}" textAlign="Center" width="100vw"></Text>
+                                    <ExpandableText maxCharacters="200" overflowMode="Popover"
+                                    textAlign="Center" textDirection="LTR"
+                                    class="" text="{M2>text}">
+                                </ExpandableText>
+                                </VBox>
+                            </FlexBox>
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
         </content>
+
         <footer>
             <c:Fragment fragmentName="zebnews.view.power" type="XML" />
         </footer>
