@@ -2,7 +2,7 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns:core="sap.ui.core"
     xmlns="sap.m">
-    <Page id="idPage" title="Home" backgroundDesign="Solid">
+    <Page id="idPage" titleAlignment="Center" title="Home" backgroundDesign="Solid">
         <content>
             <core:Fragment fragmentName="zebnews.view.name" type="XML" />
             <FlexBox id="idFlex" justifyContent="Center" class="sapUiSmallMarginTop">
@@ -40,6 +40,7 @@
         </content>
         <footer>
             <core:Fragment fragmentName="zebnews.view.power" type="XML" />
+           
         </footer>
     </Page>
 </mvc:View>
