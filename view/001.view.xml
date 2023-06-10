@@ -7,7 +7,7 @@
     height="100%"
     busyIndicatorDelay="0"
 >
-    <Page title="Hazrat Aadam Alaihissalam" titleAlignment="Center" showNavButton="true" navButtonPress="back">
+    <Page id="id001" title="Hazrat Aadam Alaihissalam" titleAlignment="Center" showNavButton="true" navButtonPress="back">
         <content>
             <core:Fragment fragmentName="zebnews.view.name" type="XML" />
 

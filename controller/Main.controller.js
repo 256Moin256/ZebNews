@@ -5,8 +5,16 @@ sap.ui.define(
     "sap/m/MessageBox",
     "sap/ui/model/Filter",
     "sap/ui/model/FilterOperator",
+    'sap/ui/core/BusyIndicator',
+    "sap/ui/core/Core"
   ],
-  function (Controller, History, MessageBox, Filter, FilterOperator) {
+  function (Controller,
+	History,
+	MessageBox,
+	Filter,
+	FilterOperator,
+	BusyIndicator,
+	core) {
     "use strict";
     return Controller.extend("zebnews.controller.Main", {
       onInit: function () {
@@ -31,12 +39,8 @@ sap.ui.define(
       onBeforeRendering: function () {},
       onAfterRendering: function () {},
       select: function (params) {
-        debugger;
-        var oPage = this.getView().byId("idPage");
-        oPage.setBusy(true);
         if (params.mParameters.id == "__xmlview0--001") {
           this.getOwnerComponent().getRouter().navTo("001");
-          
         } else if (params.mParameters.id == "__xmlview0--002") {
           this.getOwnerComponent().getRouter().navTo("002");
         } else if (params.mParameters.id == "__xmlview0--003") {
@@ -72,7 +76,6 @@ sap.ui.define(
         } else if (params.mParameters.id == "__xmlview0--018") {
           this.getOwnerComponent().getRouter().navTo("018");
         }
-        oPage.setBusy(false);
       },
       expand: function (oExpand) {
         //    var oValue = oEx.getExpanded();

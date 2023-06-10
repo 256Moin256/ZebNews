@@ -9,11 +9,6 @@
 >
     <Page title="Saare Sawaal-Jawaab" titleAlignment="Center" showNavButton="true"
         navButtonPress="back">
-        <!-- <subHeader>
-			<OverflowToolbar>
-				
-			</OverflowToolbar>
-		</subHeader> -->
         <content>
             <c:Fragment fragmentName="zebnews.view.name" type="XML" />
             <SearchField liveChange="onSearch" width="100%" />

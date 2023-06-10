@@ -153,7 +153,7 @@
         "002": {
           "viewName": "002",
           "controlAggregation": "pages",
-          "viewLevel": 2,
+          "viewLevel": 1,
           "clearControlAggregation": true,
           "transition": "show"
         },
@@ -290,6 +290,10 @@
       "M3": {
         "type": "sap.ui.model.json.JSONModel",
         "uri": "model/data/third.json"
+      },
+      "B1": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "model/data/tf.json"
       }
     }
   }

@@ -1,8 +1,9 @@
 <mvc:View xmlns:tnt="sap.tnt" controllerName="zebnews.controller.Main"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns:core="sap.ui.core"
-    xmlns="sap.m">
-    <Page id="idPage" titleAlignment="Center" title="Home" backgroundDesign="Solid">
+    xmlns="sap.m"
+    id="idMy">
+    <Page id="idPage" busy="{B1>/f}" titleAlignment="Center" title="Home" backgroundDesign="Solid">
         <content>
             <core:Fragment fragmentName="zebnews.view.name" type="XML" />
             <FlexBox id="idFlex" justifyContent="Center" class="sapUiSmallMarginTop">
